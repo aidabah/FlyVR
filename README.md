@@ -1,6 +1,6 @@
 # FlyVR 
 
-**FlyVR** is a VR-based UAS operations platform designed to make drone piloting more accessible to non-professional users. By simulating real-world flight dynamics in a virtual environment, FlyVR provides an immersive training experience that enhances user proficiency without the need for costly equipment or formal training.
+**FlyVR** is a VR-based UAS operations platform designed to make drone piloting more accessible to non-professional users. By simulating real-world flight dynamics in a simulation environment, FlyVR provides an immersive training experience that enhances user proficiency without the need for costly equipment or formal training.
 
 
 ## Features
@@ -11,7 +11,7 @@
 - **Future Integration with Live Hardware** – Bridging virtual training with physical drone operations for real-time control.
 
 ## Tech Stack
-- **Unreal Engine 5** – Environment design and simulation.
+- **Unreal Engine 5** – Simulation design and simulation.
 - **Blueprints & C++** – Game logic and physics implementation.
 - **VR Integration** – In progress: testing on Meta Quest 3, with deployment planned for PC, VR headsets (OpenXR-supported devices), and additional platforms as applicable.
 
@@ -41,18 +41,18 @@ To set up and explore FlyVR’s Virtual Flight Testing Cage in Unreal Engine 5:
 
 3. Turn on deveoper mode on Meta Quest headset and connect Meta Quest headset via usb to PC
 
-4. Download MetaXR plugin if using Meta Quest headset
+4. Download MetaXR plugin if using Meta Quest headset ([Meta XR Plugin Installation](https://developers.meta.com/horizon/documentation/unreal/unreal-quick-start-install-metaxr-plugin/)) 
 
-   `https://developers.meta.com/horizon/documentation/unreal/unreal-quick-start-install-metaxr-plugin/`
+5. Open Unreal Engine, enable MetaXR plugin and OpenXR plugin, then restart Unreal Engine
 
-5. Open Unreal Engine and enable MetaXR plugin and OpenXR plugin then close out of Unreal Engine
+6. Launch SteamVR and re-open the project
 
-6. Launch SteamVR and open the project
-
-7. Click 'Start in VR'
+7. Enable 'VR preview' mode
+   
+9. Green play button should now have VR Preview icon
 
     
-You can now explore and modify the FlyVR virtual environment in Unreal Engine 5.
+You can now explore the simulation in VR and modify the FlyVR simulation in Unreal Engine 5.
 
 ## Contact
 For inquiries regarding this research, please reach out to:
